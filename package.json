@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "echo use yarn",
     "start:prod": "yarn build && node ./build/index.js",
     "predev": "yarn generate",
     "start:dev": "nodemon src/index.ts",
