@@ -1,8 +1,8 @@
-import { importSchema } from 'graphql-import';
-const schema = importSchema('./src/schema.graphql');
 import dotenv from 'dotenv';
 import { resolvers } from './resolvers';
 import { ApolloServer, gql } from 'apollo-server';
+import { importSchema } from 'graphql-import';
+const schema = importSchema('./src/schema.graphql');
 
 const typeDefs = [
   gql`
