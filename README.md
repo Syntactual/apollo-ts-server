@@ -7,6 +7,8 @@ All settings on the configuration files are just my suggestion for a starting po
 # Included Packages
 
 https://prettier.io/
+
 https://jestjs.io/
+
 https://graphql-code-generator.com/
 
